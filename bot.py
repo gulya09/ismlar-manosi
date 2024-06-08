@@ -60,7 +60,7 @@ async def help_commands(message:Message):
 #about commands
 @dp.message(Command("about"))
 async def about_commands(message:Message):
-    await message.answer("Rustamqulov Boborahim SIFAT uquv markazi uquvchisi bu bot 2024 -yil mart oyida ishlandi")
+    await message.answer("men sulhiddinova giulhayo sifat o'quv markazida o'qiyman")
 
 
 @dp.message(Command("admin"),IsBotAdminFilter(ADMINS))
